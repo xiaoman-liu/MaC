@@ -1,1 +1,0 @@
-from model.atten_resnet.atten_resnet import AttenResNet

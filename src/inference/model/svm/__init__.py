@@ -1,1 +1,0 @@
-from model.svm.infer_svm import SVMModel
