@@ -1,0 +1,1 @@
+from model.res_trans_net.multi_atten_resnet import MultiAttenResNet

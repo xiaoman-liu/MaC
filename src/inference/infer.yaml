@@ -1,0 +1,31 @@
+# Project Configuration
+infer_label:
+infer_tag: "0508test"
+# Model to be used (option: LinearModel, XgboostModel, integrated_model, FCN-Model, FCN-Vector, ResNet, AttenResNet)
+#select_model: ResNet
+# hpcg, linpack,memory bandwidth, memory_latency, stream, spec_fp ,spec_int
+#model_path: "/home/xiaomanl/first/stunning-guacamole/model_history/spr/spec_fp/mamba"
+model_path: "/home/xiaomanl/first/stunning-guacamole/src/train/../../train_results/milestones/mamba/SPECrate2017_fp_base/Mamba/20240827222623/model"
+infer_upload_sql: 1
+
+save_test_data: 1
+
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  

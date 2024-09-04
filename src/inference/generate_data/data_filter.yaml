@@ -1,0 +1,29 @@
+merge_iterations_value: 0
+fill_missing_value: 0
+generate_test_data: 0
+no_embedding_model_list:
+    - XgboostModel
+    - LinearModel
+    - FCN-Model
+    - RandomForest
+    - SVMModel
+## Log configuration
+# Log level (1=info, 2=warning, 3=debug)
+log_level: 1
+# Path to the logging configuration file
+logging_config_path: "./utils/logging.yaml"
+
+## Data_path
+# Path to the data file
+infer_dataset_path: ../../data/raw/SPR/All Workloads_test_data1.csv
+
+infer_spr_dataset_path: ../../data/raw/SPR/All Workloads_test_data1.csv
+#infer_spr_dataset_path: ../train/train_power.csv
+#infer_spr_dataset_path: ../train/./test_power.csv
+
+infer_emr_dataset_path: ../../data/raw/EMR/All Workloads__test_data1.csv
+# Path to the QDF data file
+
+infer_spr_qdf_data_path: ../../data/processed//SPR_QDF_INFO_04252023.xlsx
+infer_emr_qdf_data_path: ../../data/processed//EMR_QDF_12112023.xlsx
+
